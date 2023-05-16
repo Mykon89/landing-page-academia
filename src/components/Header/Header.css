@@ -1,7 +1,23 @@
-.container {
+.Navbar {
+  position: relative;
+  width: 60%;
+  height: 80px;
+  margin-top: 2%;
+  left: 20%;
   display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(4px);
+  border-radius: 20px;
 }
 
-.navbar-item {
-  display: flex;
+.Navbar .navbar-logo img {
+  margin: 0;
+  padding: 0;
+  float: left;
+}
+
+.navbar-menu {
+  text-decoration: none;
 }

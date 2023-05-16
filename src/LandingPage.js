@@ -4,10 +4,10 @@ import Main from './components/Main';
 
 export default function landingPage() {
   return (
-    <section>
+    <>
       <Header />
       <Main />
       <Footer />
-    </section>
+    </>
   );
 }

@@ -1,37 +1,19 @@
 import React from 'react';
 import './Header.css';
+import { MenuItems } from './MenuItems';
 
 export default function Header() {
   return (
     <nav className="Navbar">
-      <div className="navbar-logo">
-        <img src="/" alt="logo" />
-      </div>
-      <ul className="navbar-menu">
-        <li>
-          <a href="/">
-            <p>Home</p>
+      <img src="/" alt="logo" className="navbar-logo" />
+      {MenuItems.map((item, index) => {
+        return (
+          <a href="/" key={index} className="navbar-menu">
+            <p className={item.cname}>{item.text}</p>
           </a>
-        </li>
-        <li>
-          <a href="/">
-            <p>Sobre</p>
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <p>Produto</p>
-          </a>
-        </li>
-        <li>
-          <a href="/">
-            <p>Contato</p>
-          </a>
-        </li>
-      </ul>
-      <div>
-        <button>Acessar</button>
-      </div>
+        );
+      })}
+      <button className="navbar-button">Acessar</button>
     </nav>
   );
 }
