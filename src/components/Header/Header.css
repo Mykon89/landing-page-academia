@@ -1,23 +1,41 @@
 .Navbar {
-  position: relative;
-  width: 60%;
-  height: 80px;
-  margin-top: 2%;
-  left: 20%;
+  position: fixed;
+  z-index: 1;
+  width: 145vh;
+  height: 10vh;
+  margin: -10% 10%;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-evenly;
   align-items: center;
-  background-color: rgba(0, 0, 0, 0.8);
-  backdrop-filter: blur(4px);
-  border-radius: 20px;
-}
-
-.Navbar .navbar-logo img {
-  margin: 0;
-  padding: 0;
-  float: left;
+  background-color: rgba(25, 25, 25, 0.3);
+  border-radius: 10px;
+  font-size: 1.5rem;
 }
 
 .navbar-menu {
+  display: inline-block;
+  padding: 0 1rem;
   text-decoration: none;
+}
+
+.nav-links:hover {
+  transform: scale(1.2);
+  color: greenyellow;
+}
+
+.navbar-button {
+  width: 10%;
+  height: 50%;
+  border: 1px solid greenyellow;
+  border-radius: 10px;
+  color: greenyellow;
+  font-size: 1.2rem;
+  font-weight: bold;
+  background-color: transparent;
+}
+
+.navbar-button:hover {
+  border: none;
+  background-color: greenyellow;
+  color: black;
 }
