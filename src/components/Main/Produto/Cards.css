@@ -1,0 +1,64 @@
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  border: 1px black solid;
+  border-radius: 10px;
+  width: 30%;
+  margin: 1%;
+}
+
+.card-header {
+  background-color: #3f3d56;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 1%;
+  color: #fff;
+}
+
+.card-title {
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.card-body {
+  padding: 1%;
+  font-size: 20px;
+}
+
+.card-description {
+  text-align: center;
+}
+
+.advantage {
+  display: flex;
+  justify-content: center;
+}
+
+.card-footer {
+  /* background-color: #3F3D56; */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  padding: 1%;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+}
+
+.card-button {
+  border-radius: 10px;
+  border: 1px solid green;
+  background-color: transparent;
+  /* color: #fff; */
+  font-size: 20px;
+  padding: 1%;
+}
+
+.card-button:hover {
+  cursor: pointer;
+  background-color: green;
+  transform: scale(1.1);
+}

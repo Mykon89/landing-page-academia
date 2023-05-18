@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function Contato() {
   return (
-    <section className="Contato">
+    <section className="Contato" id="contato">
       <div>
         <h1>Contato</h1>
         <p>

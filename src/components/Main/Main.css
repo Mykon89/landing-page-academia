@@ -2,8 +2,21 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: white;
+  color: var(--primary-color);
   list-style: none;
+}
+
+:root {
+  --primary-color: white;
+  --secondary-color: greenyellow;
+  --hover-btn-color: black;
+
+  --bg-menu-transparent: rgba(25, 25, 25, 0.8);
+  --bg-section-transparent: rgba(25, 25, 25, 0.3);
+
+  --fs-button: 1.2rem;
+  --fs-section: 1.4rem;
+  --fs-menu: 1.5rem;
 }
 
 body {
@@ -14,16 +27,32 @@ body {
   background-position: center;
 }
 
-section {
+.Home,
+.Sobre,
+.Contato {
   position: relative;
   margin: 12.5% 5%;
   padding: 5%;
-  height: 60vh;
-  font-size: 1.4rem;
+  height: 64vh;
+  font-size: var(--fs-section);
   text-align: justify;
   display: flex;
   align-items: center;
   border-radius: 20px;
-  background: rgba(25, 25, 25, 0.3);
+  background: var(--bg-section-transparent);
+  line-height: 2.8rem;
+}
+
+.Produto {
+  position: relative;
+  margin: 12.5% 5%;
+  padding: 5%;
+  height: auto;
+  font-size: var(--fs-section);
+  text-align: justify;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--bg-section-transparent);
   line-height: 2.8rem;
 }

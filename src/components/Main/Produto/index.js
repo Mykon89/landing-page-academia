@@ -1,8 +1,10 @@
 import React from 'react';
+import { Cards } from './Cards';
+import './Cards.css';
 
 export default function Produto() {
   return (
-    <section className="Produto">
+    <section className="Produto" id="produto">
       <div>
         <h1>Produto</h1>
         <p>
@@ -16,6 +18,35 @@ export default function Produto() {
           passages, and more recently with desktop publishing software like
           Aldus PageMaker including versions of Lorem Ipsum.
         </p>
+        <div class="container">
+          {Cards.map((card, index) => {
+            return (
+              <div className="card" key="index">
+                <div className="card-header">
+                  <div className="card-title">
+                    <h1>{card.title}</h1>
+                    <p>{card.price}</p>
+                  </div>
+                </div>
+                <div className="card-body">
+                  <div className="card-description">
+                    <p>{card.description}</p>
+                  </div>
+                  <div className="advantage">
+                    <ul>
+                      {card.advantages.map((advantage, cardindex) => {
+                        return <li key="cardindex">{advantage.name}</li>;
+                      })}
+                    </ul>
+                  </div>
+                </div>
+                <div className="card-footer">
+                  <button className="card-button">{card.btn}</button>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
     </section>
   );

@@ -7,13 +7,11 @@ import Sobre from './Sobre';
 
 export default function Main() {
   return (
-    <div className="container">
-      <h1>
-        <Home />
-        <Sobre />
-        <Produto />
-        <Contato />
-      </h1>
+    <div>
+      <Home />
+      <Sobre />
+      <Produto />
+      <Contato />
     </div>
   );
 }
