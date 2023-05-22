@@ -2,17 +2,23 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  color: var(--primary-color);
   list-style: none;
 }
 
 :root {
-  --primary-color: white;
-  --secondary-color: greenyellow;
-  --hover-btn-color: black;
+  --bg-page: linear-gradient(
+    90deg,
+    rgba(10, 77, 104, 1) 0%,
+    rgba(8, 131, 149, 1) 50%,
+    rgba(5, 191, 219, 1) 100%
+  );
 
-  --bg-menu-transparent: rgba(25, 25, 25, 0.8);
-  --bg-section-transparent: rgba(25, 25, 25, 0.3);
+  --primary-color: white;
+  --secondary-color: #00ffca;
+  --hover-btn-color: ;
+
+  --border: 1px solid rgba(255, 255, 255, 0.1);
+  --box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 
   --fs-button: 1.2rem;
   --fs-section: 1.4rem;
@@ -20,39 +26,39 @@
 }
 
 body {
-  background: url('../../assets/bg-academia-landing-page.jpg');
+  background: var(--bg-page);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  color: var(--primary-color);
 }
 
 .Home,
 .Sobre,
 .Contato {
-  position: relative;
-  margin: 12.5% 5%;
-  padding: 5%;
   height: 64vh;
-  font-size: var(--fs-section);
-  text-align: justify;
-  display: flex;
-  align-items: center;
-  border-radius: 20px;
-  background: var(--bg-section-transparent);
-  line-height: 2.8rem;
 }
 
+.Produto {
+  height: auto;
+}
+
+.Home,
+.Sobre,
+.Contato,
 .Produto {
   position: relative;
   margin: 12.5% 5%;
   padding: 5%;
-  height: auto;
   font-size: var(--fs-section);
   text-align: justify;
   display: flex;
   align-items: center;
   border-radius: 20px;
-  background: var(--bg-section-transparent);
+  background: transparent;
+  border: var(--border);
+  backdrop-filter: blur(20px);
+  box-shadow: var(--box-shadow);
   line-height: 2.8rem;
 }

@@ -10,7 +10,7 @@ export default function Header() {
         <Link
           to="home"
           activeClass="active"
-          spy="true"
+          spy={true}
           smooth={true}
           offset={-180}
           duration={1000}

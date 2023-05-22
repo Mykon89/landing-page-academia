@@ -4,18 +4,29 @@
 }
 
 .card {
-  border: 1px black solid;
-  border-radius: 10px;
+  border: var(--border);
+  border-radius: 20px;
   width: 30%;
   margin: 1%;
+  box-shadow: var(--box-shadow);
 }
 
 .card-header {
-  background-color: #3f3d56;
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
+  border-radius: 20px;
   padding: 1%;
-  color: #fff;
+  color: var(--primary-color);
+}
+
+.card-plan1 {
+  background-color: #0a4d68;
+}
+
+.card-plan2 {
+  background-color: #05bfdb;
+}
+
+.card-plan3 {
+  background-color: #088395;
 }
 
 .card-title {
@@ -39,7 +50,6 @@
 }
 
 .card-footer {
-  /* background-color: #3F3D56; */
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 1%;
@@ -49,16 +59,18 @@
 }
 
 .card-button {
+  width: 50%;
+  height: 40px;
+  border: 1px solid var(--secondary-color);
   border-radius: 10px;
-  border: 1px solid green;
+  color: var(--secondary-color);
+  font-size: var(--fs-button);
+  font-weight: bold;
   background-color: transparent;
-  /* color: #fff; */
-  font-size: 20px;
-  padding: 1%;
 }
 
 .card-button:hover {
-  cursor: pointer;
-  background-color: green;
-  transform: scale(1.1);
+  border: none;
+  background-color: var(--secondary-color);
+  color: var(--hover-btn-color);
 }

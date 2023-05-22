@@ -18,11 +18,11 @@ export default function Produto() {
           passages, and more recently with desktop publishing software like
           Aldus PageMaker including versions of Lorem Ipsum.
         </p>
-        <div class="container">
-          {Cards.map((card, index) => {
+        <div className="container">
+          {Cards.map(card => {
             return (
-              <div className="card" key="index">
-                <div className="card-header">
+              <div className="card" key={card.id}>
+                <div className={card.cname}>
                   <div className="card-title">
                     <h1>{card.title}</h1>
                     <p>{card.price}</p>
@@ -34,8 +34,8 @@ export default function Produto() {
                   </div>
                   <div className="advantage">
                     <ul>
-                      {card.advantages.map((advantage, cardindex) => {
-                        return <li key="cardindex">{advantage.name}</li>;
+                      {card.advantages.map(advantage => {
+                        return <li key={advantage.name}>{advantage.name}</li>;
                       })}
                     </ul>
                   </div>
