@@ -15,13 +15,13 @@
 
   --primary-color: #ffe1bd;
   --secondary-color: #fdcc0e;
-  --hover-btn-color: ;
+  --hover-btn-color: #47444b;
 
   --box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 
-  --bg-plan1-header: rgb(230, 105, 15);
-  --bg-plan2-header: rgb(230, 105, 15);
-  --bg-plan3-header: rgb(230, 105, 15);
+  --bg-plan1-header: rgb(255, 117, 19);
+  --bg-plan2-header: rgb(253, 204, 14);
+  --bg-plan3-header: rgb(255, 225, 189);
 
   --fs-button: 1.2rem;
   --fs-section: 1.4rem;

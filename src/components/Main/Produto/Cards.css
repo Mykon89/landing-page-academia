@@ -6,7 +6,7 @@
 .card {
   border: var(--border);
   border-radius: 20px;
-  width: 30%;
+  width: 33%;
   margin: 1%;
   box-shadow: var(--box-shadow);
 }
@@ -14,8 +14,7 @@
 .card-header {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
-  padding: 1%;
-  color: var(--primary-color);
+  color: var(--hover-btn-color);
 }
 
 .card-plan1 {
@@ -68,10 +67,12 @@
   font-size: var(--fs-button);
   font-weight: bold;
   background-color: transparent;
+  margin-bottom: 12px;
 }
 
 .card-button:hover {
   border: none;
   background-color: var(--secondary-color);
   color: var(--hover-btn-color);
+  cursor: pointer;
 }
