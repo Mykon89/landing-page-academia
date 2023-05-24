@@ -25,6 +25,7 @@
 }
 
 .nav-links:hover {
+  transition: all 0.3s;
   transform: scale(1.2);
   color: var(--secondary-color);
   cursor: pointer;
@@ -43,6 +44,7 @@
 
 .navbar-button:hover {
   border: none;
+  transition: all 0.4s;
   background-color: var(--secondary-color);
   color: var(--hover-btn-color);
   cursor: pointer;
