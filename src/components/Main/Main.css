@@ -8,17 +8,20 @@
 :root {
   --bg-page: linear-gradient(
     90deg,
-    rgba(10, 77, 104, 1) 0%,
-    rgba(8, 131, 149, 1) 50%,
-    rgba(5, 191, 219, 1) 100%
+    rgba(30, 140, 130, 1) 0%,
+    rgba(40, 150, 140, 1) 50%,
+    rgba(50, 160, 150, 1) 100%
   );
 
-  --primary-color: white;
-  --secondary-color: #00ffca;
+  --primary-color: #ffe1bd;
+  --secondary-color: #fdcc0e;
   --hover-btn-color: ;
 
-  --border: 1px solid rgba(255, 255, 255, 0.1);
   --box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
+
+  --bg-plan1-header: rgb(230, 105, 15);
+  --bg-plan2-header: rgb(230, 105, 15);
+  --bg-plan3-header: rgb(230, 105, 15);
 
   --fs-button: 1.2rem;
   --fs-section: 1.4rem;
@@ -57,7 +60,6 @@ body {
   align-items: center;
   border-radius: 20px;
   background: transparent;
-  border: var(--border);
   backdrop-filter: blur(20px);
   box-shadow: var(--box-shadow);
   line-height: 2.8rem;

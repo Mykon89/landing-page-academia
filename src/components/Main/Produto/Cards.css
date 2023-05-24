@@ -12,21 +12,22 @@
 }
 
 .card-header {
-  border-radius: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
   padding: 1%;
   color: var(--primary-color);
 }
 
 .card-plan1 {
-  background-color: #0a4d68;
+  background-color: var(--bg-plan1-header);
 }
 
 .card-plan2 {
-  background-color: #05bfdb;
+  background-color: var(--bg-plan2-header);
 }
 
 .card-plan3 {
-  background-color: #088395;
+  background-color: var(--bg-plan3-header);
 }
 
 .card-title {
@@ -53,7 +54,7 @@
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
   padding: 1%;
-  color: #fff;
+  color: var(--primary-color);
   display: flex;
   justify-content: center;
 }

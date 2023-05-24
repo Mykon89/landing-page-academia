@@ -8,10 +8,9 @@
   justify-content: space-evenly;
   align-items: center;
   background: transparent;
-  border: var(--border);
   backdrop-filter: blur(20px);
   box-shadow: var(--box-shadow);
-  border-radius: 10px;
+  border-radius: 20px;
   font-size: var(--fs-menu);
 }
 
