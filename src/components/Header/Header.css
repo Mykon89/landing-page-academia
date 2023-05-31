@@ -1,9 +1,10 @@
 .Navbar {
   position: fixed;
   z-index: 1;
-  width: 145vh;
-  height: 10vh;
+  width: 80%;
+  height: fit-content;
   margin: -10% 10%;
+  padding: 1.5% 0;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
@@ -32,14 +33,14 @@
 
 .nav-links:hover {
   transition: all 0.3s;
-  transform: scale(1.2);
   color: var(--secondary-color);
   cursor: pointer;
 }
 
 .navbar-button {
-  width: 10%;
-  height: 50%;
+  width: 100%;
+  height: auto;
+  padding: 2% 5%;
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
   color: var(--secondary-color);
