@@ -2,6 +2,7 @@ import React from 'react';
 import './Header.css';
 import { MenuItems } from './MenuItems';
 import { Link } from 'react-scroll';
+import Logo from '../../assets/logo.svg';
 
 export default function Header() {
   return (
@@ -15,7 +16,7 @@ export default function Header() {
           offset={-180}
           duration={1000}
         >
-          <img src="/" alt="logo" />
+          <img src={Logo} alt="logo" />
         </Link>
       </div>
       <div>

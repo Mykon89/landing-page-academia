@@ -8,15 +8,16 @@
 :root {
   --bg-page: linear-gradient(
     90deg,
-    rgba(30, 140, 130, 1) 0%,
-    rgba(40, 150, 140, 1) 50%,
-    rgba(50, 160, 150, 1) 100%
+    rgba(30, 140, 255, 1) 0%,
+    rgba(40, 150, 255, 1) 50%,
+    rgba(50, 160, 255, 1) 100%
   );
 
-  --primary-color: #ffe1bd;
+  --primary-color: #fff;
   --secondary-color: #fdcc0e;
   --hover-btn-color: #47444b;
 
+  --bg-color: rgba(0, 0, 0, 0.5);
   --box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 
   --bg-plan1-header: rgb(255, 117, 19);
@@ -59,7 +60,7 @@ body {
   display: flex;
   align-items: center;
   border-radius: 20px;
-  background: transparent;
+  background: var(--bg-color);
   backdrop-filter: blur(20px);
   box-shadow: var(--box-shadow);
   line-height: 2.8rem;

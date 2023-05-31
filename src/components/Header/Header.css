@@ -7,19 +7,25 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  background: transparent;
+  background: var(--bg-color);
   backdrop-filter: blur(20px);
   box-shadow: var(--box-shadow);
   border-radius: 20px;
   font-size: var(--fs-menu);
 }
 
-.navbar-logo {
+.navbar-logo a {
   cursor: pointer;
+  display: flex;
+  justify-content: center;
+}
+
+.navbar-logo img {
+  width: 40%;
 }
 
 .navbar-menu {
-  display: inline-block;
+  display: inline-flex;
   padding: 0 1rem;
   text-decoration: none;
 }
