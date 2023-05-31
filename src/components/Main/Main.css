@@ -8,16 +8,17 @@
 :root {
   --bg-page: linear-gradient(
     90deg,
-    rgba(30, 140, 255, 1) 0%,
-    rgba(40, 150, 255, 1) 50%,
+    rgba(30, 100, 255, 1) 0%,
+    rgba(40, 130, 255, 1) 50%,
     rgba(50, 160, 255, 1) 100%
   );
 
   --primary-color: #fff;
-  --secondary-color: #fdcc0e;
+  --secondary-color: greenyellow;
   --hover-btn-color: #47444b;
 
   --bg-color: rgba(0, 0, 0, 0.5);
+  --bd-filter: blur(20px);
   --box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
 
   --bg-plan1-header: rgb(255, 117, 19);
@@ -31,21 +32,7 @@
 
 body {
   background: var(--bg-page);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
   color: var(--primary-color);
-}
-
-.Home,
-.Sobre,
-.Contato {
-  height: 64vh;
-}
-
-.Produto {
-  height: auto;
 }
 
 .Home,
@@ -53,15 +40,16 @@ body {
 .Contato,
 .Produto {
   position: relative;
-  margin: 12.5% 5%;
-  padding: 5%;
+  margin: 13% 2.5%;
+  height: auto;
+  padding: 5% 2.5%;
   font-size: var(--fs-section);
   text-align: justify;
   display: flex;
   align-items: center;
   border-radius: 20px;
   background: var(--bg-color);
-  backdrop-filter: blur(20px);
+  backdrop-filter: var(--bd-filter);
   box-shadow: var(--box-shadow);
   line-height: 2.8rem;
 }

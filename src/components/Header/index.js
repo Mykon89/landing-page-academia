@@ -13,7 +13,7 @@ export default function Header() {
           activeClass="active"
           spy={true}
           smooth={true}
-          offset={-180}
+          offset={-195}
           duration={1000}
         >
           <img src={Logo} alt="logo" />
