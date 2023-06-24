@@ -35,12 +35,21 @@ body {
   color: var(--primary-color);
 }
 
+.Home {
+  margin: 13% 2.5%;
+}
+
+.Sobre,
+.Contato,
+.Produto {
+  margin: 14% 2.5%;
+}
+
 .Home,
 .Sobre,
 .Contato,
 .Produto {
   position: relative;
-  margin: 13% 2.5%;
   height: auto;
   padding: 5% 2.5%;
   font-size: var(--fs-section);

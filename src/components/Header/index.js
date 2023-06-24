@@ -30,7 +30,7 @@ export default function Header() {
                 to={item.id}
                 spy={true}
                 smooth={true}
-                offset={-180}
+                offset={-195}
                 duration={1000}
               >
                 <p className={item.cname}>{item.text}</p>

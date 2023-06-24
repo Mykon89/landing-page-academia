@@ -31,6 +31,11 @@
   text-decoration: none;
 }
 
+.nav-links {
+  cursor: pointer;
+  transition: all 0.3s;
+}
+
 .nav-links:hover {
   transition: all 0.3s;
   color: var(--secondary-color);
@@ -38,8 +43,6 @@
 }
 
 .navbar-button {
-  width: 100%;
-  height: auto;
   padding: 2% 5%;
   border: 1px solid var(--secondary-color);
   border-radius: 10px;
@@ -47,12 +50,14 @@
   font-size: var(--fs-button);
   font-weight: bold;
   background-color: transparent;
+  transition: all 0.4s;
 }
 
 .navbar-button:hover {
   border: none;
   transition: all 0.4s;
   background-color: var(--secondary-color);
+  border: 1px solid var(--secondary-color);
   color: var(--hover-btn-color);
   cursor: pointer;
 }
