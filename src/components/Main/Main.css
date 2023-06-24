@@ -6,6 +6,7 @@
 }
 
 :root {
+  --font: Arial, sans serif;
   --bg-page: linear-gradient(
     90deg,
     rgba(30, 100, 255, 1) 0%,
@@ -33,6 +34,7 @@
 body {
   background: var(--bg-page);
   color: var(--primary-color);
+  font-family: var(--font);
 }
 
 .Home {

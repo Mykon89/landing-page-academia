@@ -39,7 +39,6 @@
 .nav-links:hover {
   transition: all 0.3s;
   color: var(--secondary-color);
-  cursor: pointer;
 }
 
 .navbar-button {
