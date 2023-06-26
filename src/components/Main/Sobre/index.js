@@ -5,16 +5,30 @@ export default function Sobre() {
     <section className="Sobre" id="sobre">
       <div>
         <h1>Sobre</h1>
+        <p>Um pouco sobre nós</p>
+        <p>Porque Focus Gym?</p>
         <p>
-          What is Lorem Ipsum? Lorem Ipsum is simply dummy text of the printing
-          and typesetting industry. Lorem Ipsum has been the industry's standard
-          dummy text ever since the 1500s, when an unknown printer took a galley
-          of type and scrambled it to make a type specimen book. It has survived
-          not only five centuries, but also the leap into electronic
-          typesetting, remaining essentially unchanged. It was popularised in
-          the 1960s with the release of Letraset sheets containing Lorem Ipsum
-          passages, and more recently with desktop publishing software like
-          Aldus PageMaker including versions of Lorem Ipsum.
+          Somos o futuro do fitness, somos liberdade geográfica, conectamos
+          oportunidades ao seu negócio.
+        </p>
+        <p>
+          Idealizada por ex-colaboradores de grandes empresas o sistema de
+          gestão para academias, estúdios e box de Crossfit Focus Gym® nasce da
+          necessidade do mercado fitness, que buscava segurança, confiabilidade,
+          desempenho e um custo drasticamente inferior.
+        </p>
+        <p>
+          Soluções que tornam o gerenciamento das academias uma tarefa
+          extremamente simples, aproximando sua academia dos seus clientes,
+          através de modernos mecanismos de fidelização e acompanhamento de
+          performance, tudo através de um único software.
+        </p>
+        <p>
+          Somos All stack in one software, com o software para academias,
+          estúdios, box e personais Focus Gym® você não precisa mais perder
+          tempo buscando informações e aprendendo a mexer em vários sistemas,
+          inove você também, junte-se ao grupo de clientes que estão tendo total
+          diferença em sua gestão.
         </p>
       </div>
     </section>

@@ -2,7 +2,6 @@
   position: fixed;
   z-index: 1;
   width: 80%;
-  height: fit-content;
   margin: -10% 10%;
   padding: 1.5% 0;
   display: flex;
@@ -15,14 +14,14 @@
   font-size: var(--fs-menu);
 }
 
-.navbar-logo a {
-  cursor: pointer;
+.navbar-logo {
   display: flex;
   justify-content: center;
 }
 
 .navbar-logo img {
   width: 35%;
+  cursor: pointer;
 }
 
 .navbar-menu {

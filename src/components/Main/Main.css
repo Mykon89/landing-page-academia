@@ -52,7 +52,6 @@ body {
 .Contato,
 .Produto {
   position: relative;
-  height: auto;
   padding: 5% 2.5%;
   font-size: var(--fs-section);
   text-align: justify;
