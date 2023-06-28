@@ -34,7 +34,13 @@ export default class Header extends Component {
             })}
           </div>
           <div>
-            <button className="navbar-button">Acessar</button>
+            <a
+              href="http://gym-dev.com/academia"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className="navbar-button">Acessar</button>
+            </a>
           </div>
         </nav>
       </section>
