@@ -5,15 +5,15 @@
 
 .card {
   border: var(--border);
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   width: 33%;
   margin: 1%;
   box-shadow: var(--box-shadow);
 }
 
 .card-header {
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
+  border-top-left-radius: var(--border-radius);
+  border-top-right-radius: var(--border-radius);
   color: var(--hover-btn-color);
 }
 
@@ -50,8 +50,8 @@
 }
 
 .card-footer {
-  border-bottom-left-radius: 10px;
-  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: var(--border-radius);
+  border-bottom-right-radius: var(--border-radius);
   padding: 1%;
   color: var(--primary-color);
   display: flex;
@@ -62,7 +62,7 @@
   width: 50%;
   height: 40px;
   border: 1px solid var(--secondary-color);
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   color: var(--secondary-color);
   font-size: var(--fs-button);
   font-weight: bold;

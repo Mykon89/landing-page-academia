@@ -10,7 +10,7 @@
   background: var(--bg-color);
   backdrop-filter: var(--bd-filter);
   box-shadow: var(--box-shadow);
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   font-size: var(--fs-menu);
 }
 
@@ -40,10 +40,14 @@
   color: var(--secondary-color);
 }
 
+.active {
+  color: var(--secondary-color);
+}
+
 .navbar-button {
   padding: 2% 5%;
   border: 1px solid var(--secondary-color);
-  border-radius: 10px;
+  border-radius: var(--border-radius);
   color: var(--secondary-color);
   font-size: var(--fs-button);
   font-weight: bold;

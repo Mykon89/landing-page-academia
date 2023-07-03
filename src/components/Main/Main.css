@@ -9,14 +9,15 @@
   --font: Arial, sans serif;
   --bg-page: linear-gradient(
     90deg,
-    rgba(30, 100, 255, 1) 0%,
-    rgba(40, 130, 255, 1) 50%,
-    rgba(50, 160, 255, 1) 100%
+    rgba(4, 90, 140, 1) 0%,
+    rgba(129, 208, 255, 1) 100%
   );
 
   --primary-color: #fff;
-  --secondary-color: greenyellow;
+  --secondary-color: orange;
   --hover-btn-color: #47444b;
+
+  --border-radius: 10px;
 
   --bg-color: rgba(0, 0, 0, 0.5);
   --bd-filter: blur(20px);
@@ -57,7 +58,7 @@ body {
   text-align: justify;
   display: flex;
   align-items: center;
-  border-radius: 20px;
+  border-radius: var(--border-radius);
   background: var(--bg-color);
   backdrop-filter: var(--bd-filter);
   box-shadow: var(--box-shadow);

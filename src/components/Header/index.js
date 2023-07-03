@@ -21,7 +21,7 @@ export default class Header extends Component {
                 <Link
                   key={index}
                   className="navbar-menu"
-                  activeClass="navbar-menu"
+                  activeClass="active"
                   to={item.id}
                   spy={true}
                   smooth={true}
@@ -35,7 +35,7 @@ export default class Header extends Component {
           </div>
           <div>
             <a
-              href="http://gym-dev.com/academia"
+              href="https://gym-dev.com/academia"
               target="_blank"
               rel="noreferrer"
             >

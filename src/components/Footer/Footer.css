@@ -7,6 +7,6 @@
   border: var(--border);
   backdrop-filter: var(--bd-filter);
   box-shadow: var(--box-shadow);
-  border-radius: 20px 20px 0 0;
+  border-radius: 10px 10px 0 0;
   font-size: 1.5rem;
 }
