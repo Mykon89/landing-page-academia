@@ -1,8 +1,9 @@
 import React from 'react';
+import SobreImg from '../assets/sobre.jpg';
 
-export default function Sobre() {
+const Sobre = () => {
   return (
-    <section className="Sobre" id="sobre">
+    <section className="container" id="sobre">
       <div>
         <h1>Sobre</h1>
         <p>Um pouco sobre nós</p>
@@ -31,6 +32,11 @@ export default function Sobre() {
           diferença em sua gestão.
         </p>
       </div>
+      <div>
+        <img src={SobreImg} alt="sobre" />
+      </div>
     </section>
   );
-}
+};
+
+export default Sobre;

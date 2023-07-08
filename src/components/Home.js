@@ -1,17 +1,20 @@
 import React from 'react';
 import Contato from './Contato';
-import Home from './Home';
-import './Main.css';
+import Inicial from './Inicial';
+import Navbar from './Navbar';
 import Produto from './Produto';
 import Sobre from './Sobre';
 
-export default function Main() {
+const Home = () => {
   return (
-    <div>
-      <Home />
+    <>
+      <Navbar />
+      <Inicial />
       <Sobre />
       <Produto />
       <Contato />
-    </div>
+    </>
   );
-}
+};
+
+export default Home;

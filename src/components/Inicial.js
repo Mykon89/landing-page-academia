@@ -1,8 +1,9 @@
 import React from 'react';
+import InicialImg from '../assets/inicial.jpg';
 
-export default function Home() {
+const Inicial = () => {
   return (
-    <section className="Home" id="home">
+    <section className="container" id="inicial">
       <div>
         <h1>Focus Gym</h1>
         <p>O sistema para academia que facilita sua gestão.</p>
@@ -25,6 +26,11 @@ export default function Home() {
           academia, estúdio ou box com o sistema #1 do mercado fitness
         </p>
       </div>
+      <div>
+        <img src={InicialImg} alt="inicial" />
+      </div>
     </section>
   );
-}
+};
+
+export default Inicial;
