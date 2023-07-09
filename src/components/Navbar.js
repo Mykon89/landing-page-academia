@@ -11,18 +11,23 @@ const Navbar = () => {
 
   return (
     <header>
-      <img src={NavLogo} alt="" className="navbar-logo" />
+      <img src={NavLogo} alt="logo" className="navbar-logo" />
       <nav className="navigation">
         {MenuItems.map((item, index) => {
           return (
-            <a href="/" className={item.cname} key={index}>
+            <a href={item.href} className={item.cname} key={index}>
               {item.text}
             </a>
           );
         })}
-        {/* <a href="https://gym-dev.com/academia" target="_blank" rel="noreferrer"> */}
-        <button className="btn-login">Acessar</button>
-        {/* </a> */}
+
+        <a
+          href="https://gym-dev.com/academia/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <button className="btn-login">Acessar</button>
+        </a>
       </nav>
     </header>
   );

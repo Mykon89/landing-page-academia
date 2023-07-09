@@ -9,7 +9,7 @@ const Inicial = () => {
         <p>O sistema para academia que facilita sua gestão.</p>
         <p>
           Faça um teste grátis e se surpreenda com a solução desenhada para o
-          seu negócio
+          seu negócio.
         </p>
         <p>
           Somos uma plataforma de gestão para negócios fitness feita sob medida
@@ -23,10 +23,10 @@ const Inicial = () => {
         </p>
         <p>
           Coloque sua academia na nuvem All Stack in one software Modernize sua
-          academia, estúdio ou box com o sistema #1 do mercado fitness
+          academia, estúdio ou box com o sistema #1 do mercado fitness.
         </p>
       </div>
-      <div>
+      <div className="img-inicial">
         <img src={InicialImg} alt="inicial" />
       </div>
     </section>

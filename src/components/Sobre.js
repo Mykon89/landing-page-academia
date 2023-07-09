@@ -32,7 +32,7 @@ const Sobre = () => {
           diferença em sua gestão.
         </p>
       </div>
-      <div>
+      <div className="img-sobre">
         <img src={SobreImg} alt="sobre" />
       </div>
     </section>
